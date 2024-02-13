@@ -1,0 +1,13 @@
+site_name: Moon Wiki
+site_description: A lovely place
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+  palette:
+    primary: "blue"
+    accent: "light blue"
+  language: en
