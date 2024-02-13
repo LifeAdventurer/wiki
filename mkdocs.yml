@@ -1,13 +1,25 @@
 site_name: Moon Wiki
 site_description: A lovely place
+site_author: LifeAdventurer <life0adventurer@gmail.com>
+site_url: https://lifeadventurer.github.io/wiki/
+repo_url: https://github.com/LifeAdventurer/wiki/
+repo_name: LifeAdventurer/wiki
 
 nav:
   - Home: index.md
-  - About: about.md
 
 theme:
   name: material
-  palette:
-    primary: "blue"
-    accent: "light blue"
   language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material//weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
