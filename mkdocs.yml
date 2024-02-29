@@ -30,12 +30,18 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.expand
-    - toc.follow
+    - navigation.footer
+    - navigation.sections
+    - navigation.tabs
     - search.suggest
     - search.highlight
     - search.share
+    - toc.follow
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LifeAdventurer
   
 copyright: Copyright &copy; 2024 LifeAdventurer
