@@ -1,19 +1,17 @@
+# Project information
 site_name: Moon Wiki
-site_description: A lovely place
-site_author: LifeAdventurer <life0adventurer@gmail.com>
 site_url: https://lifeadventurer.github.io/wiki/
-repo_url: https://github.com/LifeAdventurer/wiki/
+site_author: LifeAdventurer <life0adventurer@gmail.com>
+site_description: A lovely place
+
+# Repository
 repo_name: LifeAdventurer/wiki
+repo_url: https://github.com/LifeAdventurer/wiki/
 
-nav:
-  - Home: index.md
-  - Blog:
-      - blog/index.md
+# Copyright
+copyright: Copyright &copy; 2024 LifeAdventurer
 
-plugins:
-  - search
-  - blog
-
+# Configuration
 theme:
   name: material
   language: en
@@ -39,9 +37,18 @@ theme:
     - search.share
     - toc.follow
 
+# Plugins
+plugins:
+  - blog
+  - search
+
+# Additional configuration
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/LifeAdventurer
-  
-copyright: Copyright &copy; 2024 LifeAdventurer
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
