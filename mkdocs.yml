@@ -48,7 +48,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/LifeAdventurer
 
+# Page tree
 nav:
   - Home: index.md
+  - Portfolio:
+    - Portfolio Overview: portfolio/index.md
   - Blog:
-      - blog/index.md
+    - blog/index.md
