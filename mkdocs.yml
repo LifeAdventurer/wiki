@@ -53,5 +53,6 @@ nav:
   - Home: index.md
   - Portfolio:
     - Portfolio Overview: portfolio/index.md
+    - Moonafly: portfolio/moonafly.md
   - Blog:
     - blog/index.md
