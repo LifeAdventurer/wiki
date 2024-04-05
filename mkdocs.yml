@@ -48,11 +48,18 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/LifeAdventurer
 
+# Extensions
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 # Page tree
 nav:
   - Home: index.md
   - Portfolio:
     - Portfolio Overview: portfolio/index.md
+    - Patient Diet Recorder: portfolio/patient-diet-recorder.md
     - Moonafly: portfolio/moonafly.md
   - Blog:
     - blog/index.md
