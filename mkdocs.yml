@@ -1,5 +1,5 @@
 # Project information
-site_name: Moon Wiki
+site_name: Moon's Website
 site_url: https://lifeadventurer.github.io/wiki/
 site_author: LifeAdventurer <life0adventurer@gmail.com>
 site_description: A lovely place
@@ -27,14 +27,18 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
   features:
+    - content.code.copy
     - navigation.expand
     - navigation.footer
+    - navigation.indexes
     - navigation.sections
     - navigation.tabs
-    - search.suggest
     - search.highlight
     - search.share
+    - search.suggest
     - toc.follow
 
 # Plugins
@@ -50,9 +54,38 @@ extra:
 
 # Extensions
 markdown_extensions:
+  - admonition
+  - attr_list
   - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
+  - tables
+  - toc:
+      permalink: true
 
 # Page tree
 nav:
