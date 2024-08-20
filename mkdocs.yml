@@ -44,6 +44,7 @@ theme:
 # Plugins
 plugins:
   - blog
+  - glightbox
   - search
 
 # Additional configuration
