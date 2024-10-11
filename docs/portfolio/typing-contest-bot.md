@@ -95,10 +95,10 @@ python main.py # Or `poetry run python main.py` if using Poetry
 
 ## Contributing
 
-Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on contributing to this project.
+Please see the [CONTRIBUTING.md](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/CONTRIBUTING.md) for guidelines on contributing to this project.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [`LICENSE`](./LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [`LICENSE`](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/LICENSE) file for details.
 
 <h2 align="center">Happy Typing and Good Luck!</h2>
