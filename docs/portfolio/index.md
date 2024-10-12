@@ -11,3 +11,7 @@ Welcome to my portfolio! This is where I showcase my projects.
 ### [Typing Contest Discord Bot](./typing-contest-bot.md)
 
 :   This is a Discord bot built with discord.py to facilitate typing contests in a server.
+
+### [Permission Tree](./permission-tree.md)
+
+:   A tree structure that manages permissions and allows moving subtrees.
