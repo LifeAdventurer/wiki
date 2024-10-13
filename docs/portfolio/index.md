@@ -15,3 +15,7 @@ Welcome to my portfolio! This is where I showcase my projects.
 ### [Permission Tree](./permission-tree.md)
 
 :   A tree structure that manages permissions and allows moving subtrees.
+
+### [Mkdocs Material Template](./mkdocs-material-template.md)
+
+:   This template uses MkDocs with the Material theme to create elegant, responsive, and well-structured documentation for your projects.
