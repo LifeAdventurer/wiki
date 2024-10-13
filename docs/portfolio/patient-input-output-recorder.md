@@ -33,8 +33,8 @@ In particular, it plays a crucial role in managing conditions such as kidney dis
 
 ## Want to Contribute?
 
-Refer to [CONTRIBUTING.md](./CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md](https://github.com/LifeAdventurer/patient-input-output-recorder/blob/main/CONTRIBUTING.md)
 
 ## LICENSE
 
-See [LICENSE](./LICENSE) for more information.
+See [LICENSE](https://github.com/LifeAdventurer/patient-input-output-recorder/blob/main/LICENSE) for more information.
