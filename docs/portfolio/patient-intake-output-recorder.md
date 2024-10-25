@@ -1,7 +1,7 @@
-# Patient Input/Output Recorder
+# Patient Intake/Output (I/O) Recorder
 
-[Patient Side](https://lifeadventurer.github.io/patient-input-output-recorder/patient/)
-[Monitor Side](https://lifeadventurer.github.io/patient-input-output-recorder/monitor/)
+[Patient Side](https://lifeadventurer.github.io/patient-intake-output-recorder/patient/)
+[Monitor Side](https://lifeadventurer.github.io/patient-intake-output-recorder/monitor/)
 
 This project is a simple tool for recording and tracking essential health parameters of patients. It provides a user-friendly interface for healthcare professionals to log various health metrics, including food intake, water consumption, urine volume, defecation frequency, and weight, along with corresponding timestamps for each entry. This information can be valuable for healthcare professionals to monitor and analyze the health status of patients over time.
 
@@ -33,8 +33,8 @@ In particular, it plays a crucial role in managing conditions such as kidney dis
 
 ## Want to Contribute?
 
-Refer to [CONTRIBUTING.md](https://github.com/LifeAdventurer/patient-input-output-recorder/blob/main/CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## LICENSE
 
-See [LICENSE](https://github.com/LifeAdventurer/patient-input-output-recorder/blob/main/LICENSE) for more information.
+See [LICENSE](./LICENSE) for more information.

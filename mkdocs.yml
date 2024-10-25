@@ -96,7 +96,7 @@ nav:
   - Home: index.md
   - Portfolio:
     - Portfolio Overview: portfolio/index.md
-    - Patient Input/Output Recorder: portfolio/patient-input-output-recorder.md
+    - Patient Intake/Output Recorder: portfolio/patient-intake-output-recorder.md
     - Typing Contest Discord Bot: portfolio/typing-contest-bot.md
     - Permission Tree: portfolio/permission-tree.md
     - Mkdocs Material Template: portfolio/mkdocs-material-template.md
