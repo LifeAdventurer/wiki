@@ -1,7 +1,8 @@
 # Typing Contest Discord Bot
 
-This is a Discord bot built with `discord.py` to facilitate typing contests in a server. The bot enables users to start contests, join them, submit WPM (words per minute) results, and display rankings based on average WPM.
-
+This is a Discord bot built with `discord.py` to facilitate typing contests in a
+server. The bot enables users to start contests, join them, submit WPM (words
+per minute) results, and display rankings based on average WPM.
 
 ## Prerequisties
 
@@ -9,7 +10,6 @@ This is a Discord bot built with `discord.py` to facilitate typing contests in a
 - Poetry (recommended) or pip
 
 ## Installation
-
 
 ### 1. Clone the repository:
 
@@ -57,14 +57,15 @@ pip install -r requirements.txt
 
 ### 3. Configure the bot:
 
-Create a `config.json` file in the `./config/` directory with the following structure:
+Create a `config.json` file in the `./config/` directory with the following
+structure:
 
 ```json
 {
-    "token": "your-discord-bot-token",
-    "typist_role_name": "your-server-typist-role",
-    "testing_role_name": "your-server-testing-role", // Optional, required only for debug mode
-    "contests_held": 0
+  "token": "your-discord-bot-token",
+  "typist_role_name": "your-server-typist-role",
+  "testing_role_name": "your-server-testing-role", // Optional, required only for debug mode
+  "contests_held": 0
 }
 ```
 
@@ -84,21 +85,32 @@ python main.py # Or `poetry run python main.py` if using Poetry
 - `!join`: Join the typing contest.
 - `!quit`: Quit the typing contest.
 - `!list`: Display all current participants in the typing contest.
-- `!next`: Proceed to the next round in the typing contest and view the current WPM results.
+- `!next`: Proceed to the next round in the typing contest and view the current
+  WPM results.
 - `!wpm {wpm}`: Submit your WPM result for the current round.
-- `!result`: View the WPM results table at any time, not just after advancing rounds.
-- `!remind`: Sends a reminder to participants who haven't submitted their WPM for the current round. Use this if the round has ended and some participants have not yet submitted their results.
-- `!remove {member}`: Remove a participant from the typing contest. Only the contest creator can use this.
-- `!ban {member}`: Ban a participant from the typing contest. Once banned, they cannot join again. Only the contest creator can use this.
+- `!result`: View the WPM results table at any time, not just after advancing
+  rounds.
+- `!remind`: Sends a reminder to participants who haven't submitted their WPM
+  for the current round. Use this if the round has ended and some participants
+  have not yet submitted their results.
+- `!remove {member}`: Remove a participant from the typing contest. Only the
+  contest creator can use this.
+- `!ban {member}`: Ban a participant from the typing contest. Once banned, they
+  cannot join again. Only the contest creator can use this.
 - `!getrole`: Assign yourself the typist role.
 - `!commands`: Show this list of commands.
 
 ## Contributing
 
-Please see the [CONTRIBUTING.md](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/CONTRIBUTING.md) for guidelines on contributing to this project.
+Please see the
+[CONTRIBUTING.md](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/CONTRIBUTING.md)
+for guidelines on contributing to this project.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [`LICENSE`](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See the
+[`LICENSE`](https://github.com/LifeAdventurer/typing-contest-bot/blob/main/LICENSE)
+file for details.
 
 <h2 align="center">Happy Typing and Good Luck!</h2>
