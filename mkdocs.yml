@@ -1,5 +1,5 @@
 # Project information
-site_name: Moon's Website
+site_name: Life Adventurer's Website
 site_url: https://lifeadventurer.github.io/wiki/
 site_author: LifeAdventurer <life0adventurer@gmail.com>
 site_description: A lovely place
@@ -9,7 +9,7 @@ repo_name: LifeAdventurer/wiki
 repo_url: https://github.com/LifeAdventurer/wiki/
 
 # Copyright
-copyright: Copyright &copy; 2024 LifeAdventurer
+copyright: Copyright &copy; 2025 LifeAdventurer
 
 # Configuration
 theme:

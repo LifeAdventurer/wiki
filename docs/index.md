@@ -1,1 +1,1 @@
-# Welcome to Moon Wiki
+# Welcome to Life Adventurer's Wiki
