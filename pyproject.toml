@@ -1,11 +1,12 @@
 [project]
 name = "wiki"
 version = "0.1.0"
-description = ""
+description = "Documentation site built with MkDocs Material."
 authors = [
     {name = "lifeadventurer", email = "life0adventurer@gmail.com"}
 ]
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.11"
 dependencies = [
     "mkdocs-material>=9.5.32",
