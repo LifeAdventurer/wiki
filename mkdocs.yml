@@ -102,7 +102,10 @@ nav:
   - Home: index.md
   - Portfolio:
     - Portfolio Overview: portfolio/index.md
+    - Sharacle: portfolio/sharacle.md
     - Patient Intake/Output Recorder: portfolio/patient-intake-output-recorder.md
+    - Sentify: portfolio/sentify.md
+    - OmniText: portfolio/omnitext.md
     - Typing Contest Discord Bot: portfolio/typing-contest-bot.md
     - Permission Tree: portfolio/permission-tree.md
     - Mkdocs Material Template: portfolio/mkdocs-material-template.md

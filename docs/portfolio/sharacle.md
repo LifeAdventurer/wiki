@@ -10,13 +10,13 @@ Sharacle is a specially designed platform for sharing and cherishing daily mirac
 ## Mission
 
 !!! quote "Our Mission"
-    To create a safe, anxiety-free space where people can celebrate life's beautiful moments 
+    To create a safe, anxiety-free space where people can celebrate life's beautiful moments
     and encourage faith, especially for those going through tough times.
 
 ## Core Philosophy
 
 !!! important "Anti-Anxiety Design"
-    Sharacle is built on the principle that social media should uplift, not stress. 
+    Sharacle is built on the principle that social media should uplift, not stress.
     We've removed every element that typically causes anxiety in social platforms.
 
 ## Features & Benefits
