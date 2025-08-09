@@ -37,15 +37,15 @@ This project focuses on analyzing the sentiment of news articles to predict stoc
 
 !!! info "Prerequisites"
     - Python (version 3.11 or higher)
-    - Poetry (recommended) or pip
+    - uv (recommended) or pip
 
-### Using Poetry (recommended)
+### Using uv (recommended)
 
 ```shell
 git clone https://github.com/LifeAdventurer/sentify.git
 cd sentify
-poetry install
-poetry env activate
+uv sync
+source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 ```
 
 ### Using pip
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 To serve the Flask app locally, run:
 
 ```shell
-poetry run python3 src/main.py
+python3 src/main.py
 ```
 
 ## Configuration
